@@ -16,7 +16,7 @@ import routes from "routes";
 import styles from "./App.module.scss";
 import megaMan from "assets/images/ZZ58.gif";
 
-import song from "assets/fireMan.mp3";
+import song from "assets/stageSelect.mp3";
 
 export default function App() {
   const { pathname } = useLocation();
