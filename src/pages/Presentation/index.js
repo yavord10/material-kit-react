@@ -134,7 +134,7 @@ function Presentation() {
           <Container>
             <Grid container spacing={3}>
               <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
-                <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
+                <MKTypography variant="h6" fontWeight="bold" mb={0.5}>
                   Thank you for your support!
                 </MKTypography>
               </Grid>
@@ -153,7 +153,7 @@ function Presentation() {
                   color="twitter"
                   sx={{ mr: 1 }}
                 >
-                  <i className="fab fa-twitter" />
+                  <i className="fab fa-twitter" style={{ fontSize: "20px" }} />
                   &nbsp;Tweet
                 </MKSocialButton>
                 <MKSocialButton
@@ -163,17 +163,8 @@ function Presentation() {
                   color="facebook"
                   sx={{ mr: 1 }}
                 >
-                  <i className="fab fa-facebook" />
-                  &nbsp;Share
-                </MKSocialButton>
-                <MKSocialButton
-                  component="a"
-                  href="https://www.pinterest.com/pin/create/button/?url=https://www.creative-tim.com/product/material-kit-react"
-                  target="_blank"
-                  color="pinterest"
-                >
-                  <i className="fab fa-pinterest" />
-                  &nbsp;Pin it
+                  <i className="fab fa-telegram" style={{ fontSize: "20px" }} />
+                  &nbsp;Join
                 </MKSocialButton>
               </Grid>
             </Grid>
