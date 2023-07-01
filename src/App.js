@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 // react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
@@ -17,9 +17,12 @@ import styles from "./App.module.scss";
 import megaMan from "assets/images/ZZ58.gif";
 
 import song from "assets/fireMan.mp3";
+import VolumeOffIcon from "@mui/icons-material/VolumeOff";
+import VolumeUpIcon from "@mui/icons-material/VolumeUp";
 
 export default function App() {
-  const audio = new Audio(song);
+  const [audio] = useState(new Audio(song));
+  const [isPlaying, setIsPlaying] = useState(false);
   const { pathname } = useLocation();
 
   // Setting page scroll to 0 when changing the route
@@ -41,17 +44,39 @@ export default function App() {
       return null;
     });
 
+  const handlePlay = () => {
+    audio.play();
+    setIsPlaying(true);
+  };
+
+  const handleStop = () => {
+    audio.pause();
+    setIsPlaying(false);
+  };
+
   /*   useEffect(() => {
     runAnimation(styles.particleNetworkAnimation);
   }, []); */
 
-  useEffect(() => {
-    audio.play();
-  });
-
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <span
+        className={styles.muteButton}
+        style={{
+          position: "fixed",
+          top: 0,
+          right: 0,
+          color: "white",
+          zIndex: "5",
+          fontSize: "40px",
+          marginRight: "8px",
+          cursor: "pointer",
+        }}
+      >
+        {!isPlaying && <VolumeOffIcon onClick={handlePlay} />}
+        {isPlaying && <VolumeUpIcon onClick={handleStop} />}
+      </span>
       <div className={styles.particleNetworkAnimation}></div>
       <Routes>
         {getRoutes(routes)}
