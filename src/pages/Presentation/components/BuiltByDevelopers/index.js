@@ -45,17 +45,19 @@ function BuiltByDevelopers() {
           <MKTypography variant="h1" color="white" mb={1}>
             Tokenomics
           </MKTypography>
-          <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
+          <div style={{ display: "flex", flexDirection: "column " }}>
             <MKTypography variant="h4" color="white" fontWeight="bold">
               Buy tax: 0%
             </MKTypography>
             <MKTypography variant="h4" color="white" fontWeight="bold" mb={1}>
               Sell tax: 0% - 20%
             </MKTypography>
-            Depending on the health of the chart the sell tax will fluctuate between 0-20%. It
-            increases as the chart descends, and decreases while the chart moves upward on each
-            transaction.
-          </MKTypography>
+            <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
+              Depending on the health of the chart the sell tax will fluctuate between 0-20%. It
+              increases as the chart descends, and decreases while the chart moves upward on each
+              transaction.
+            </MKTypography>
+          </div>
         </Grid>
       </Container>
     </MKBox>
