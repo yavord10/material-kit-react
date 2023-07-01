@@ -22,6 +22,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import bgImage from "assets/images/8bitmegamoonbg2.webp";
 
+import styles from "App.module.scss";
 function BuiltByDevelopers() {
   return (
     <MKBox
@@ -42,7 +43,7 @@ function BuiltByDevelopers() {
     >
       <Container>
         <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
-          <MKTypography variant="h3" color="white" mb={1}>
+          <MKTypography variant="h3" color="white" mb={1} className={styles.tokenomicsHeader}>
             Tokenomics
           </MKTypography>
           <div style={{ display: "flex", flexDirection: "column " }}>

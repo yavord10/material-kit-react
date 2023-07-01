@@ -16,9 +16,10 @@ import routes from "routes";
 import styles from "./App.module.scss";
 import megaMan from "assets/images/ZZ58.gif";
 
-import song from "assets/stageSelect.mp3";
+import song from "assets/fireMan.mp3";
 
 export default function App() {
+  const audio = new Audio(song);
   const { pathname } = useLocation();
 
   // Setting page scroll to 0 when changing the route
@@ -45,7 +46,6 @@ export default function App() {
   }, []); */
 
   useEffect(() => {
-    const audio = new Audio(song);
     audio.play();
   });
 
