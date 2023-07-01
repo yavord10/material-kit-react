@@ -470,7 +470,8 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
         })}
       >
         <MKBox display="flex" justifyContent="space-between" alignItems="center">
-          <img src={logo} style={{ maxWidth: "200px" }} />
+          Megamoon
+          {/* <img src={logo} style={{ maxWidth: "200px" }} /> */}
           <MKBox
             color="inherit"
             display={{ xs: "none", lg: "flex" }}

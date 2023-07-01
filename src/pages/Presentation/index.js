@@ -1,17 +1,4 @@
-/*
-=========================================================
-* Tokenomics 2.0 - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
+/* eslint-disable */
 
 // @mui material components
 import Container from "@mui/material/Container";
@@ -65,8 +52,16 @@ function Presentation() {
           placeItems: "center",
         }}
       >
-        <Container>
-          <img
+        <Container
+          style={{
+            boxShadow:
+              "16px 0 white, -16px 0 white, 0 -16px white, 0 16px white, 4px 0 0 8px white, -4px 0 0 8px white, 0 -4px 0 8px white, 0 4px 0 8px white, 20px 0 orange, -20px 0 orange, 0 -20px orange, 0 20px orange, 0 0 0 12px orange, 0 8px 0 8px orange, 0 -8px 0 8px orange, 8px 0 0 8px orange, -8px 0 0 8px orange;",
+          }}
+        >
+          <MKTypography variant="h1" color="white" textAlign="center" px={{ xs: 6, lg: 12 }} mt={1}>
+            Megamoon
+          </MKTypography>
+          {/* <img
             src={logo}
             style={{
               margin: "0 auto",
@@ -75,7 +70,7 @@ function Presentation() {
               alignItems: "center",
               maxWidth: "300px",
             }}
-          />
+          /> */}
           <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
             <MKTypography
               variant="body1"
@@ -97,7 +92,10 @@ function Presentation() {
           mb: 4,
           backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
           backdropFilter: "saturate(200%) blur(30px)",
-          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+        }}
+        style={{
+          boxShadow:
+            "16px 0 white, -16px 0 white, 0 -16px white, 0 16px white, 4px 0 0 8px white, -4px 0 0 8px white, 0 -4px 0 8px white, 0 4px 0 8px white, 20px 0 orange, -20px 0 orange, 0 -20px orange, 0 20px orange, 0 0 0 12px orange, 0 8px 0 8px orange, 0 -8px 0 8px orange, 8px 0 0 8px orange, -8px 0 0 8px orange !important;",
         }}
       >
         <Counters />

@@ -20,7 +20,7 @@ import Grid from "@mui/material/Grid";
 // Tokenomics 2.0 components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import bgImage from "assets/images/finalbg1.jpeg";
+import bgImage from "assets/images/8bitmegamoonbg2.webp";
 
 function BuiltByDevelopers() {
   return (
@@ -36,8 +36,8 @@ function BuiltByDevelopers() {
             rgba(gradients.dark.main, 0.8),
             rgba(gradients.dark.state, 0.8)
           )}, url(${bgImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundSize: "contain",
+        backgroundPosition: "bottom",
       }}
     >
       <Container>

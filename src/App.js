@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Tokenomics 2.0 - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import { useEffect } from "react";
 
 // react-router components
@@ -28,7 +13,6 @@ import Presentation from "layouts/pages/presentation";
 
 // Tokenomics 2.0 routes
 import routes from "routes";
-import runAnimation from "runAnimation";
 import styles from "./App.module.scss";
 
 export default function App() {
@@ -53,9 +37,9 @@ export default function App() {
       return null;
     });
 
-  useEffect(() => {
+  /*   useEffect(() => {
     runAnimation(styles.particleNetworkAnimation);
-  }, []);
+  }, []); */
 
   return (
     <ThemeProvider theme={theme}>

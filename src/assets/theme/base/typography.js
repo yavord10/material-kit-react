@@ -28,21 +28,21 @@ import pxToRem from "assets/theme/functions/pxToRem";
 const { dark } = colors;
 
 const baseProperties = {
-  fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-  fontFamily2: '"Roboto Slab", sans-serif',
+  fontFamily: '"Press Start 2P", "Helvetica", "Arial", sans-serif',
+  fontFamily2: '"Press Start 2P", sans-serif',
   fontWeightLighter: 100,
   fontWeightLight: 300,
   fontWeightRegular: 400,
   fontWeightMedium: 600,
   fontWeightBold: 700,
-  fontSizeXXS: pxToRem(10.4),
-  fontSizeXS: pxToRem(12),
-  fontSizeSM: pxToRem(14),
-  fontSizeMD: pxToRem(16),
-  fontSizeLG: pxToRem(18),
-  fontSizeXL: pxToRem(20),
-  fontSize2XL: pxToRem(24),
-  fontSize3XL: pxToRem(30),
+  fontSizeXXS: pxToRem(8),
+  fontSizeXS: pxToRem(10),
+  fontSizeSM: pxToRem(10),
+  fontSizeMD: pxToRem(12),
+  fontSizeLG: pxToRem(14),
+  fontSizeXL: pxToRem(16),
+  fontSize2XL: pxToRem(18),
+  fontSize3XL: pxToRem(24),
 };
 
 const baseHeadingProperties = {

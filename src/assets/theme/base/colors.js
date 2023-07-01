@@ -55,7 +55,7 @@ export default {
   },
 
   info: {
-    main: "#eb4034",
+    main: "#4172CF",
     focus: "#1662C4",
   },
 
@@ -108,8 +108,8 @@ export default {
     },
 
     info: {
-      main: "#eb4034",
-      state: "#eb4034",
+      main: "#4172CF",
+      state: "#4172CF",
     },
 
     success: {
