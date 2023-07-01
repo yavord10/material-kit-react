@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Tokenomics 2.0 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -18,7 +18,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Tooltip from "@mui/material/Tooltip";
 
-// Material Kit 2 React components
+// Tokenomics 2.0 components
 import MKBox from "components/MKBox";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
@@ -65,7 +65,7 @@ function Download() {
               color="info"
               size="large"
               component="a"
-              href="https://www.creative-tim.com/product/material-kit-react"
+              href="https://uniswap.com"
               sx={{ mb: 2 }}
             >
               Download Now
@@ -148,11 +148,7 @@ function Download() {
               </Grid>
               <Grid item xs={4} lg={2}>
                 <Tooltip title="Comming soon">
-                  <MKBox
-                    component="a"
-                    href="https://www.creative-tim.com/product/material-kit-react"
-                    target="_blank"
-                  >
+                  <MKBox component="a" href="https://uniswap.com" target="_blank">
                     <MKBox
                       component="img"
                       src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg"

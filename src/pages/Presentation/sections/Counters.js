@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Tokenomics 2.0 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -16,12 +16,11 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
 
-// Material Kit 2 React components
+// Tokenomics 2.0 components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// Tokenomics 2.0 examples
 import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
 
 function Counters() {
@@ -30,29 +29,13 @@ function Counters() {
       <Container>
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard
-              count={70}
-              suffix="+"
-              title="Coded Elements"
-              description="From buttons, to inputs, navbars, alerts or cards, you are covered"
-            />
+            <DefaultCounterCard count={12000} suffix="+" title="Supply burnt" description="" />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
-            <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, mx: 0 }} />
-            <DefaultCounterCard
-              count={15}
-              suffix="+"
-              title="Design Blocks"
-              description="Mix the sections, change the colors and unleash your creativity"
-            />
-            <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
+            <DefaultCounterCard count={8} suffix="+" title="Buybacks done" description="" />
           </Grid>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard
-              count={4}
-              title="Pages"
-              description="Save 3-4 weeks of work when you use our pre-made pages for your website"
-            />
+            <DefaultCounterCard count={15000} suffix="+" title="Reflections made" description="" />
           </Grid>
         </Grid>
       </Container>

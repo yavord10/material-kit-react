@@ -1,7 +1,7 @@
-const navbarDarkCode = `// Material Kit 2 React components
+const navbarDarkCode = `// Tokenomics 2.0 components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
+// Tokenomics 2.0 examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes
@@ -14,8 +14,8 @@ function NavbarDark() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "https://uniswap.com",
+          label: "Buy on uniswap",
           color: "info",
         }}
         transparent

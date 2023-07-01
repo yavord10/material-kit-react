@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Tokenomics 2.0 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -18,12 +18,12 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Material Kit 2 React components
+// Tokenomics 2.0 components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKSocialButton from "components/MKSocialButton";
 
-// Material Kit 2 React examples
+// Tokenomics 2.0 examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
@@ -41,7 +41,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/tokenomics2bg.png";
 
 function Presentation() {
   return (
@@ -50,8 +50,8 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "https://uniswap.com",
+          label: "Buy on uniswap",
           color: "info",
         }}
         sticky
@@ -80,7 +80,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              Tokenomics 2.0{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -89,8 +89,8 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              2.0 meta on steds &amp; We have created the most bullish tokenomics in the whole of
+              the current 2.0 meta.
             </MKTypography>
           </Grid>
         </Container>

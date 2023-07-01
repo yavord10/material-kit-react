@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Material Kit 2 React - v2.1.0
+* Tokenomics 2.0 - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -19,13 +19,13 @@ import PropTypes from "prop-types";
 // react-countup component
 import CountUp from "react-countup";
 
-// Material Kit 2 React components
+// Tokenomics 2.0 components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 function DefaultCounterCard({ color, count, title, description, ...rest }) {
   return (
-    <MKBox p={2} textAlign="center" lineHeight={1}>
+    <MKBox p={2} textAlign="center" lineHeight={1} style={{ width: "100%" }}>
       <MKTypography variant="h1" color={color} textGradient>
         <CountUp end={count} duration={1} {...rest} />
       </MKTypography>
