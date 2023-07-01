@@ -128,7 +128,7 @@ function Presentation() {
                 color="info"
                 icon="precision_manufacturing"
                 title="Buybacks/Burn"
-                description="35% of tax goes to huge buybacks and burning of supply"
+                description="35% of tax goes to buybacks and burns"
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -136,7 +136,7 @@ function Presentation() {
                 color="info"
                 icon="apps"
                 title="Marketing"
-                description="35% of tax goes to marketing and community building"
+                description="30% of tax goes to marketing and growth"
               />
             </Grid>
           </Grid>
