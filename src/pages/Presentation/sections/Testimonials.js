@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Tokenomics 2.0 React - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -18,11 +18,11 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Divider from "@mui/material/Divider";
 
-// Tokenomics 2.0 components
+// Tokenomics 2.0 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Tokenomics 2.0 examples
+// Tokenomics 2.0 React examples
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
@@ -44,13 +44,9 @@ function Information() {
           justifyContent="center"
           sx={{ mx: "auto", textAlign: "center" }}
         >
-          <MKTypography variant="h2">Trusted by over</MKTypography>
-          <MKTypography variant="h2" color="info" textGradient mb={2}>
-            1,679,477+ web developers
-          </MKTypography>
-          <MKTypography variant="body1" color="text" mb={2}>
-            Many Fortune 500 companies, startups, universities and governmental institutions love
-            Creative Tim&apos;s products.
+          <MKTypography variant="h2">Trusted by over </MKTypography>
+          <MKTypography variant="h2" color="info" textGradient mb={2} ml={1}>
+            200+ holders
           </MKTypography>
         </Grid>
         <Grid container spacing={3} sx={{ mt: 8 }}>

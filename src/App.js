@@ -28,6 +28,8 @@ import Presentation from "layouts/pages/presentation";
 
 // Tokenomics 2.0 routes
 import routes from "routes";
+import runAnimation from "runAnimation";
+import styles from "./App.module.scss";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -51,13 +53,18 @@ export default function App() {
       return null;
     });
 
+  useEffect(() => {
+    runAnimation(styles.particleNetworkAnimation);
+  }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <div className={styles.particleNetworkAnimation}></div>
       <Routes>
         {getRoutes(routes)}
-        <Route path="/presentation" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/presentation" />} />
+        <Route path="/tech" element={<Presentation />} />
+        <Route path="*" element={<Navigate to="/tech" />} />
       </Routes>
     </ThemeProvider>
   );

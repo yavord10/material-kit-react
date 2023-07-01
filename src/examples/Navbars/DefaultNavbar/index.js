@@ -1,4 +1,4 @@
-/* eslint-disable no-param-reassign */
+/* eslint-disable */
 /**
 =========================================================
 * Tokenomics 2.0 - v2.1.0
@@ -42,6 +42,7 @@ import DefaultNavbarMobile from "examples/Navbars/DefaultNavbar/DefaultNavbarMob
 
 // Tokenomics 2.0 base styles
 import breakpoints from "assets/theme/base/breakpoints";
+import logo from "assets/images/finallogo1-removebg-preview.png";
 
 function DefaultNavbar({ brand, routes, transparent, light, action, sticky, relative, center }) {
   const [dropdown, setDropdown] = useState("");
@@ -469,17 +470,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
         })}
       >
         <MKBox display="flex" justifyContent="space-between" alignItems="center">
-          <MKBox
-            component={Link}
-            to="/"
-            lineHeight={1}
-            py={transparent ? 1.5 : 0.75}
-            pl={relative || transparent ? 0 : { xs: 0, lg: 1 }}
-          >
-            <MKTypography variant="button" fontWeight="bold" color={light ? "white" : "dark"}>
-              {brand}
-            </MKTypography>
-          </MKBox>
+          <img src={logo} style={{ maxWidth: "200px" }} />
           <MKBox
             color="inherit"
             display={{ xs: "none", lg: "flex" }}
