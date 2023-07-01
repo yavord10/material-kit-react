@@ -25,6 +25,8 @@ import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 import routes from "routes";
 import footerRoutes from "footer.routes";
 
+import styles from "App.module.scss";
+
 // Images
 import logo from "assets/images/finallogo2-removebg-preview.png";
 
@@ -41,20 +43,36 @@ function Presentation() {
         }}
         sticky
       />
-      <MKBox
-        minHeight="75vh"
-        width="100%"
-        sx={{
+      <div
+        style={{
           background: "black",
           backgroundSize: "cover",
           backgroundPosition: "top",
           display: "grid",
           placeItems: "center",
+          width: "100%",
+          minHeight: "75vh",
         }}
       >
-        <Container>
-          <MKTypography variant="h1" color="white" textAlign="center" px={{ xs: 6, lg: 12 }} mt={1}>
-            Megamoon
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            margin: "0 auto",
+          }}
+        >
+          <MKTypography
+            variant="h1"
+            color="white"
+            textAlign="center"
+            px={{ xs: 6, lg: 12 }}
+            mt={1}
+            style={{ zIndex: 5 }}
+            className={styles.heroHeader}
+          >
+            MEGAMOON
           </MKTypography>
           {/* <img
             src={logo}
@@ -73,12 +91,14 @@ function Presentation() {
               textAlign="center"
               px={{ xs: 6, lg: 12 }}
               mt={1}
+              style={{ zIndex: 5 }}
+              className={styles.heroDesc}
             >
               We have created the most bullish tokenomics in the whole of the current 2.0 meta.
             </MKTypography>
           </Grid>
-        </Container>
-      </MKBox>
+        </div>
+      </div>
       <Card
         sx={{
           p: 2,

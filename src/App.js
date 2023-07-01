@@ -48,10 +48,10 @@ export default function App() {
       <div className={styles.particleNetworkAnimation}></div>
       <Routes>
         {getRoutes(routes)}
-        <Route path="/tech" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/tech" />} />
+        <Route path="/" element={<Presentation />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      <img src={megaMan} style={{ position: "fixed", bottom: 0, right: 0, width: "200px" }} />
+      <img className={styles.megaMan} src={megaMan} />
     </ThemeProvider>
   );
 }

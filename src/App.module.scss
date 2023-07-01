@@ -74,3 +74,38 @@
     transform: translate(0%, -100%);
   }
 }
+
+.megaMan {
+  position: fixed;
+  bottom: 0;
+  right: -150px;
+  width: 150px;
+  animation: megaManRun 7s infinite linear;
+
+  @media (max-width: 700px) {
+    width: 100px;
+  }
+}
+
+@keyframes megaManRun {
+  0% {
+    right: -150px;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .navTitle {
+    font-size: 10px;
+  }
+
+  .heroHeader {
+    font-size: 25px;
+  }
+
+  .heroDesc {
+    font-size: 15px;
+  }
+}
