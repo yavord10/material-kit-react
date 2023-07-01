@@ -1,7 +1,7 @@
-// Tokenomics 2.0 Base Styles
+// Megamoon Base Styles
 import colors from "assets/theme/base/colors";
 
-// Tokenomics 2.0 Helper Functions
+// Megamoon Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { grey } = colors;

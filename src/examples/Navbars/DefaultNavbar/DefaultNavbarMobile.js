@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -25,11 +25,11 @@ import PropTypes from "prop-types";
 import Collapse from "@mui/material/Collapse";
 import MuiLink from "@mui/material/Link";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Tokenomics 2.0 example components
+// Megamoon example components
 import DefaultNavbarDropdown from "examples/Navbars/DefaultNavbar/DefaultNavbarDropdown";
 
 function DefaultNavbarMobile({ routes, open }) {

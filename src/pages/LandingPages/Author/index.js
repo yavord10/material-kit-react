@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -16,10 +16,10 @@ Coded by www.creative-tim.com
 // @mui material components
 import Card from "@mui/material/Card";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 
-// Tokenomics 2.0 examples
+// Megamoon examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Author page sections

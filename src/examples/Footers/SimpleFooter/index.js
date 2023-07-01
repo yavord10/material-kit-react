@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -21,11 +21,11 @@ import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
 import Icon from "@mui/material/Icon";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Tokenomics 2.0 base styles
+// Megamoon base styles
 import typography from "assets/theme/base/typography";
 
 function SimpleFooter({ company, links, light }) {

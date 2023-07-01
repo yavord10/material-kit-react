@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -22,7 +22,7 @@ import Flatpickr from "react-flatpickr";
 // react-flatpickr styles
 import "flatpickr/dist/flatpickr.css";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKInput from "components/MKInput";
 
 function MKDatePicker({ input, ...rest }) {

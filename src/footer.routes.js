@@ -4,7 +4,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKTypography from "components/MKTypography";
 
 // Images
@@ -14,7 +14,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Tokenomics 2.0",
+    name: "Megamoon",
     image: logoCT,
     route: "/",
   },

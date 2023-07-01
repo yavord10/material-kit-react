@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-react
@@ -24,7 +24,7 @@ import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 import MuiLink from "@mui/material/Link";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 

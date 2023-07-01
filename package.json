@@ -2,8 +2,8 @@
   "name": "material-kit-2-react",
   "version": "2.1.0",
   "private": true,
-  "author": "Tokenomics 2.0",
-  "description": "Tokenomics 2.0",
+  "author": "Megamoon",
+  "description": "Megamoon",
   "dependencies": {
     "@emotion/cache": "11.10.7",
     "@emotion/react": "11.10.6",

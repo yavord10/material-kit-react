@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -13,11 +13,11 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-// Tokenomics 2.0 Base Styles
+// Megamoon Base Styles
 import typography from "assets/theme/base/typography";
 import borders from "assets/theme/base/borders";
 
-// Tokenomics 2.0 Helper Functions
+// Megamoon Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { fontWeightBold, size } = typography;

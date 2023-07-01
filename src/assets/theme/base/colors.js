@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -14,9 +14,9 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base colors for the Tokenomics 2.0.
+ * The base colors for the Megamoon.
  * You can add new color using this file.
- * You can customized the colors for the entire Tokenomics 2.0 using thie file.
+ * You can customized the colors for the entire Megamoon using thie file.
  */
 
 export default {

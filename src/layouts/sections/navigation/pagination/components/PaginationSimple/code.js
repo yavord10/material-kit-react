@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKPagination from "components/MKPagination";
 
 function PaginationSimple() {

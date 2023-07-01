@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
 // @mui material components
 import MuiBreadcrumbs from "@mui/material/Breadcrumbs";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 

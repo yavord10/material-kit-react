@@ -1,4 +1,4 @@
-// Tokenomics 2.0 Base Styles
+// Megamoon Base Styles
 import colors from "assets/theme/base/colors";
 
 const { info, dark } = colors;

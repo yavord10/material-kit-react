@@ -6,7 +6,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 // @mui icons
 import SearchIcon from "@mui/icons-material/Search";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
 

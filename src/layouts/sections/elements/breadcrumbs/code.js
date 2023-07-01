@@ -2,10 +2,10 @@ const badgesSimpleCode = `// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 
-// Tokenomics 2.0 examples
+// Megamoon examples
 import Breadcrumbs from "examples/Breadcrumbs";
 
 function BreadcrumbsEL() {

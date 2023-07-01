@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -14,15 +14,15 @@ Coded by www.creative-tim.com
 */
 
 /**
- * The base typography styles for the Tokenomics 2.0.
+ * The base typography styles for the Megamoon.
  * You can add new typography style using this file.
- * You can customized the typography styles for the entire Tokenomics 2.0 using thie file.
+ * You can customized the typography styles for the entire Megamoon using thie file.
  */
 
-// Tokenomics 2.0 Base Styles
+// Megamoon Base Styles
 import colors from "assets/theme/base/colors";
 
-// Tokenomics 2.0 Helper Functions
+// Megamoon Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { dark } = colors;

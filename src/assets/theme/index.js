@@ -2,7 +2,7 @@
 import { createTheme } from "@mui/material/styles";
 // import Fade from "@mui/material/Fade";
 
-// Tokenomics 2.0 base styles
+// Megamoon base styles
 import colors from "assets/theme/base/colors";
 import breakpoints from "assets/theme/base/breakpoints";
 import typography from "assets/theme/base/typography";
@@ -10,14 +10,14 @@ import boxShadows from "assets/theme/base/boxShadows";
 import borders from "assets/theme/base/borders";
 import globals from "assets/theme/base/globals";
 
-// Tokenomics 2.0 helper functions
+// Megamoon helper functions
 import boxShadow from "assets/theme/functions/boxShadow";
 import hexToRgb from "assets/theme/functions/hexToRgb";
 import linearGradient from "assets/theme/functions/linearGradient";
 import pxToRem from "assets/theme/functions/pxToRem";
 import rgba from "assets/theme/functions/rgba";
 
-// Tokenomics 2.0 components base styles for @mui material components
+// Megamoon components base styles for @mui material components
 import list from "assets/theme/components/list";
 import listItem from "assets/theme/components/list/listItem";
 import listItemText from "assets/theme/components/list/listItemText";

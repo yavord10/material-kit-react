@@ -1,7 +1,7 @@
-const navbarDarkCode = `// Tokenomics 2.0 components
+const navbarDarkCode = `// Megamoon components
 import MKBox from "components/MKBox";
 
-// Tokenomics 2.0 examples
+// Megamoon examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 
 // Routes

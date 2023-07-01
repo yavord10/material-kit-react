@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -17,7 +17,7 @@ Coded by www.creative-tim.com
   The boxShadow() function helps you to create a box shadow for an element
  */
 
-// Tokenomics 2.0 helper functions
+// Megamoon helper functions
 import rgba from "assets/theme/functions/rgba";
 import pxToRem from "assets/theme/functions/pxToRem";
 

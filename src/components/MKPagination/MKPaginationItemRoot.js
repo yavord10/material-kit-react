@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import { styled } from "@mui/material/styles";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKButton from "components/MKButton";
 
 export default styled(MKButton)(({ theme, ownerState }) => {

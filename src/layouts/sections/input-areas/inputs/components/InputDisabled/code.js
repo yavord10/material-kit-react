@@ -2,7 +2,7 @@ const inputDisabledCode = `// @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
 

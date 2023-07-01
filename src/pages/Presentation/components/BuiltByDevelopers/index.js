@@ -1,6 +1,6 @@
 /*
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -17,7 +17,7 @@ Coded by www.creative-tim.com
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import bgImage from "assets/images/8bitmegamoonbg2.webp";
@@ -42,14 +42,14 @@ function BuiltByDevelopers() {
     >
       <Container>
         <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
-          <MKTypography variant="h1" color="white" mb={1}>
+          <MKTypography variant="h3" color="white" mb={1}>
             Tokenomics
           </MKTypography>
           <div style={{ display: "flex", flexDirection: "column " }}>
-            <MKTypography variant="h4" color="white" fontWeight="bold">
+            <MKTypography variant="h5" color="white" fontWeight="bold">
               Buy tax: 0%
             </MKTypography>
-            <MKTypography variant="h4" color="white" fontWeight="bold" mb={1}>
+            <MKTypography variant="h5" color="white" fontWeight="bold" mb={1}>
               Sell tax: 0% - 20%
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>

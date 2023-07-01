@@ -7,11 +7,11 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 
-// Tokenomics 2.0 themes
+// Megamoon themes
 import theme from "assets/theme";
 import Presentation from "layouts/pages/presentation";
 
-// Tokenomics 2.0 routes
+// Megamoon routes
 import routes from "routes";
 import styles from "./App.module.scss";
 

@@ -1,7 +1,7 @@
 /* eslint-disable */
 /**
 =========================================================
-* Tokenomics 2.0 - v2.1.0
+* Megamoon - v2.1.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-kit-react
@@ -31,16 +31,16 @@ import Grid from "@mui/material/Grid";
 import Divider from "@mui/material/Divider";
 import MuiLink from "@mui/material/Link";
 
-// Tokenomics 2.0 components
+// Megamoon components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
 
-// Tokenomics 2.0 example components
+// Megamoon example components
 import DefaultNavbarDropdown from "examples/Navbars/DefaultNavbar/DefaultNavbarDropdown";
 import DefaultNavbarMobile from "examples/Navbars/DefaultNavbar/DefaultNavbarMobile";
 
-// Tokenomics 2.0 base styles
+// Megamoon base styles
 import breakpoints from "assets/theme/base/breakpoints";
 import logo from "assets/images/finallogo1-removebg-preview.png";
 
@@ -543,7 +543,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
 // Setting default values for the props of DefaultNavbar
 DefaultNavbar.defaultProps = {
-  brand: "Tokenomics 2.0",
+  brand: "Megamoon",
   transparent: false,
   light: false,
   action: false,
