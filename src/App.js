@@ -14,6 +14,7 @@ import Presentation from "layouts/pages/presentation";
 // Megamoon routes
 import routes from "routes";
 import styles from "./App.module.scss";
+import megaMan from "assets/images/ZZ58.gif";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -50,6 +51,7 @@ export default function App() {
         <Route path="/tech" element={<Presentation />} />
         <Route path="*" element={<Navigate to="/tech" />} />
       </Routes>
+      <img src={megaMan} style={{ position: "fixed", bottom: 0, right: 0, width: "200px" }} />
     </ThemeProvider>
   );
 }
