@@ -51,12 +51,14 @@ function BuiltByDevelopers() {
               Buy tax: 0%
             </MKTypography>
             <MKTypography variant="h5" color="white" fontWeight="bold" mb={1}>
-              Sell tax: 0% - 20%
+              Sell tax: 0% - 15%
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-              Depending on the health of the chart the sell tax will fluctuate between 0-20%. It
-              increases as the chart descends, and decreases while the chart moves upward on each
-              transaction.
+              Depending on the health of the chart the sell tax will fluctuate between 0-15%.
+            </MKTypography>
+            <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
+              It increases by 3% with each buy as the chart descends, and decreases with 3% while
+              the chart moves upward on each transaction.
             </MKTypography>
           </div>
         </Grid>

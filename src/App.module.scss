@@ -78,9 +78,22 @@
 .megaMan {
   position: fixed;
   bottom: 0;
-  right: -150px;
+  right: -200px;
   width: 150px;
   animation: megaManRun 7s infinite linear;
+  animation-delay: 3s;
+
+  @media (max-width: 700px) {
+    width: 100px;
+  }
+}
+
+.megaMoon {
+  position: fixed;
+  bottom: 0;
+  right: -100px;
+  width: 150px;
+  animation: megaMoonRoll 7s infinite linear;
   animation-delay: 2s;
 
   @media (max-width: 700px) {
@@ -88,9 +101,20 @@
   }
 }
 
+@keyframes megaMoonRoll {
+  0% {
+    right: -100px;
+    transform: rotate(360deg);
+  }
+  100% {
+    right: 100%;
+    transform: rotate(0deg);
+  }
+}
+
 @keyframes megaManRun {
   0% {
-    right: -150px;
+    right: -200px;
   }
   100% {
     right: 100%;

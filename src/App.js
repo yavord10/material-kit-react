@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 // react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
@@ -15,14 +15,9 @@ import Presentation from "layouts/pages/presentation";
 import routes from "routes";
 import styles from "./App.module.scss";
 import megaMan from "assets/images/ZZ58.gif";
-
-import song from "assets/fireMan.mp3";
-import VolumeOffIcon from "@mui/icons-material/VolumeOff";
-import VolumeUpIcon from "@mui/icons-material/VolumeUp";
+import megaMoon from "assets/images/8bitmoon.png";
 
 export default function App() {
-  const [audio] = useState(new Audio(song));
-  const [isPlaying, setIsPlaying] = useState(false);
   const { pathname } = useLocation();
 
   // Setting page scroll to 0 when changing the route
@@ -43,17 +38,6 @@ export default function App() {
 
       return null;
     });
-
-  const handlePlay = () => {
-    audio.play();
-    setIsPlaying(true);
-  };
-
-  const handleStop = () => {
-    audio.pause();
-    setIsPlaying(false);
-  };
-
   /*   useEffect(() => {
     runAnimation(styles.particleNetworkAnimation);
   }, []); */
@@ -61,28 +45,13 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <span
-        className={styles.muteButton}
-        style={{
-          position: "fixed",
-          top: 0,
-          right: 0,
-          color: "white",
-          zIndex: "5",
-          fontSize: "40px",
-          marginRight: "8px",
-          cursor: "pointer",
-        }}
-      >
-        {!isPlaying && <VolumeOffIcon onClick={handlePlay} />}
-        {isPlaying && <VolumeUpIcon onClick={handleStop} />}
-      </span>
       <div className={styles.particleNetworkAnimation}></div>
       <Routes>
         {getRoutes(routes)}
         <Route path="/" element={<Presentation />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <img className={styles.megaMoon} src={megaMoon} />
       <img className={styles.megaMan} src={megaMan} />
     </ThemeProvider>
   );

@@ -45,6 +45,10 @@ import breakpoints from "assets/theme/base/breakpoints";
 import logo from "assets/images/finallogo1-removebg-preview.png";
 import styles from "App.module.scss";
 
+import song from "assets/fireMan.mp3";
+import VolumeOffIcon from "@mui/icons-material/VolumeOff";
+import VolumeUpIcon from "@mui/icons-material/VolumeUp";
+
 function DefaultNavbar({ brand, routes, transparent, light, action, sticky, relative, center }) {
   const [dropdown, setDropdown] = useState("");
   const [dropdownEl, setDropdownEl] = useState("");
@@ -52,12 +56,22 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
   const [nestedDropdown, setNestedDropdown] = useState("");
   const [nestedDropdownEl, setNestedDropdownEl] = useState("");
   const [nestedDropdownName, setNestedDropdownName] = useState("");
+  const [audio] = useState(new Audio(song));
+  const [isPlaying, setIsPlaying] = useState(false);
   const [arrowRef, setArrowRef] = useState(null);
   const [mobileNavbar, setMobileNavbar] = useState(false);
   const [mobileView, setMobileView] = useState(false);
 
   const openMobileNavbar = () => setMobileNavbar(!mobileNavbar);
+  const handlePlay = () => {
+    audio.play();
+    setIsPlaying(true);
+  };
 
+  const handleStop = () => {
+    audio.pause();
+    setIsPlaying(false);
+  };
   useEffect(() => {
     // A function that sets the display state for the DefaultNavbarMobile.
     function displayMobileNavbar() {
@@ -472,6 +486,19 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
       >
         <MKBox display="flex" justifyContent="space-between" alignItems="center">
           <span className={styles.navTitle}>MEGAMOON</span>
+          <span
+            className={styles.muteButton}
+            style={{
+              color: "#4172CF",
+              zIndex: "5",
+              fontSize: "40px",
+              marginLeft: "5px",
+              cursor: "pointer",
+            }}
+          >
+            {!isPlaying && <VolumeOffIcon onClick={handlePlay} />}
+            {isPlaying && <VolumeUpIcon onClick={handleStop} />}
+          </span>
           {/* <img src={logo} style={{ maxWidth: "200px" }} /> */}
           <MKBox
             color="inherit"

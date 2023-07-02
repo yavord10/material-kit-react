@@ -41,7 +41,7 @@ function DefaultFooter({ content }) {
             sx={{ textAlign: "center", my: 3 }}
             style={{ color: "white !important" }}
           >
-            <span style={{ color: "white" }}>All rights reserved. Coypright © 2023.</span>
+            <span style={{ color: "white" }}>All rights reserved. Copyright © 2023.</span>
           </Grid>
         </Grid>
       </Container>

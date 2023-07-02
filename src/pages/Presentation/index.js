@@ -120,7 +120,7 @@ function Presentation() {
                 color="info"
                 icon="flag"
                 title="Reflections"
-                description="35% of tax goes to massive reflections for holders"
+                description="40% of tax goes to massive reflections for holders"
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -128,7 +128,7 @@ function Presentation() {
                 color="info"
                 icon="precision_manufacturing"
                 title="Buybacks/Burn"
-                description="35% of tax goes to buybacks and burns"
+                description="40% of tax goes to buybacks and burns"
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -136,7 +136,7 @@ function Presentation() {
                 color="info"
                 icon="apps"
                 title="Marketing"
-                description="30% of tax goes to marketing and growth"
+                description="20% of tax goes to marketing and growth"
               />
             </Grid>
           </Grid>
