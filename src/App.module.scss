@@ -79,12 +79,12 @@
   position: fixed;
   bottom: 0;
   right: -200px;
-  width: 150px;
+  width: 125px;
   animation: megaManRun 7s infinite linear;
   animation-delay: 3s;
 
   @media (max-width: 700px) {
-    width: 100px;
+    width: 75px;
   }
 }
 
@@ -92,12 +92,12 @@
   position: fixed;
   bottom: 0;
   right: -100px;
-  width: 150px;
+  width: 125px;
   animation: megaMoonRoll 7s infinite linear;
   animation-delay: 2s;
 
   @media (max-width: 700px) {
-    width: 100px;
+    width: 75px;
   }
 }
 
