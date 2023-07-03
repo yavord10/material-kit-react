@@ -28,7 +28,7 @@ import footerRoutes from "footer.routes";
 import styles from "App.module.scss";
 
 // Images
-import logo from "assets/images/finallogo2-removebg-preview.png";
+import logo from "assets/images/megamoon_logo.png";
 
 function Presentation() {
   return (
@@ -63,18 +63,7 @@ function Presentation() {
             margin: "0 auto",
           }}
         >
-          <MKTypography
-            variant="h1"
-            color="white"
-            textAlign="center"
-            px={{ xs: 6, lg: 12 }}
-            mt={1}
-            style={{ zIndex: 5 }}
-            className={styles.heroHeader}
-          >
-            MEGAMOON
-          </MKTypography>
-          {/* <img
+          <img
             src={logo}
             style={{
               margin: "0 auto",
@@ -82,8 +71,9 @@ function Presentation() {
               justifyContent: "center",
               alignItems: "center",
               maxWidth: "300px",
+              zIndex: 5,
             }}
-          /> */}
+          />
           <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
             <MKTypography
               variant="body1"
@@ -94,7 +84,9 @@ function Presentation() {
               style={{ zIndex: 5 }}
               className={styles.heroDesc}
             >
-              We have created the most bullish tokenomics in the whole of the current 2.0 meta.
+              We have created the most bullish tokenomic, incorporating a MEGA deflationary
+              mechanism and providing MEGA reflections to holders, whilst ensuring a MEGA healthy,
+              strong chart.
             </MKTypography>
           </Grid>
         </div>
@@ -159,7 +151,7 @@ function Presentation() {
               >
                 <MKSocialButton
                   component="a"
-                  href="https://twitter.com/intent/tweet?text=Check%20Material%20Design%20System%20made%20by%20%40CreativeTim%20%23webdesign%20%23designsystem%20%23mui5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fmaterial-kit-react"
+                  href="https://twitter.com/MEGAMOON_eth"
                   target="_blank"
                   color="twitter"
                   sx={{ mr: 1 }}
@@ -169,7 +161,7 @@ function Presentation() {
                 </MKSocialButton>
                 <MKSocialButton
                   component="a"
-                  href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/material-kit-react"
+                  href="https://t.me/MEGAMOON_eth"
                   target="_blank"
                   color="facebook"
                   sx={{ mr: 1 }}

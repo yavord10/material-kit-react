@@ -43,12 +43,12 @@ const routes = [
   {
     name: "Telegram",
     icon: <Telegram />,
-    href: "https://www.twitter.com",
+    href: "https://t.me/MEGAMOON_eth",
   },
   {
     name: "Twitter",
     icon: <Twitter />,
-    href: "https://www.twitter.com",
+    href: "https://twitter.com/MEGAMOON_eth",
   },
 ];
 

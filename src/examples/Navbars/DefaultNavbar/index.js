@@ -499,7 +499,6 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             {!isPlaying && <VolumeOffIcon onClick={handlePlay} />}
             {isPlaying && <VolumeUpIcon onClick={handleStop} />}
           </span>
-          {/* <img src={logo} style={{ maxWidth: "200px" }} /> */}
           <MKBox
             color="inherit"
             display={{ xs: "none", lg: "flex" }}
