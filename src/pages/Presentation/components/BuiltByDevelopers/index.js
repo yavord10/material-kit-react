@@ -57,8 +57,8 @@ function BuiltByDevelopers() {
               Depending on the health of the chart the sell tax will fluctuate between 0-15%.
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-              It increases by 3% with each buy as the chart descends, and decreases with 3% while
-              the chart moves upward on each transaction.
+              It increases by 3% with each sell as the chart descends, and decreases with 3% while
+              the chart moves upward on each buy.
             </MKTypography>
           </div>
         </Grid>
