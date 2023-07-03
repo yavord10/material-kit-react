@@ -84,8 +84,8 @@ function Presentation() {
               style={{ zIndex: 5 }}
               className={styles.heroDesc}
             >
-              We have created the most bullish tokenomics 'The Meganomics' incorporating a MEGA
-              deflationary mechanism and providing MEGA reflections to holders, whilst ensuring a
+              We have created the most bullish tokenomics out there. 'The Meganomics' incorporate a
+              MEGA deflationary mechanism and provide MEGA reflections to holders, whilst ensuring a
               MEGA healthy, strong chart.
             </MKTypography>
           </Grid>
