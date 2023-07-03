@@ -29,13 +29,13 @@ function Counters() {
       <Container>
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard count={12000} suffix="+" title="Supply burnt" description="" />
+            <DefaultCounterCard count={0} suffix="+" title="Supply burnt" description="" />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
-            <DefaultCounterCard count={8} suffix="+" title="Buybacks done" description="" />
+            <DefaultCounterCard count={0} suffix="+" title="Buybacks done" description="" />
           </Grid>
           <Grid item xs={12} md={4}>
-            <DefaultCounterCard count={15000} suffix="+" title="Reflections made" description="" />
+            <DefaultCounterCard count={0} suffix="+" title="Reflections made" description="" />
           </Grid>
         </Grid>
       </Container>
