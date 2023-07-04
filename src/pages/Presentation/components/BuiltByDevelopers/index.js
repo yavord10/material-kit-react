@@ -54,11 +54,12 @@ function BuiltByDevelopers() {
               Sell tax: 0% - 15%
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-              Depending on the health of the chart the sell tax will fluctuate between 0-15%.
+              The sell tax varies from 0% to 15% based on the condition of the chart. It rises by 3%
+              as the chart declines, and decreases by 3% when the chart rises during each
+              transaction.
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-              It increases by 3% with each sell as the chart descends, and decreases with 3% while
-              the chart moves upward on each buy.
+              During higher tax periods holders reap rewards through MEGA reflections and buybacks.
             </MKTypography>
           </div>
         </Grid>
