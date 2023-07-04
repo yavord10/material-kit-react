@@ -520,6 +520,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
                   }
                   color={action.color ? action.color : "info"}
                   size="small"
+                  className={styles.navButton}
                 >
                   {action.label}
                 </MKButton>
@@ -536,6 +537,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
                   }
                   color={action.color ? action.color : "info"}
                   size="small"
+                  className={styles.navButton}
                 >
                   {action.label}
                 </MKButton>
