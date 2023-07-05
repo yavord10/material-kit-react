@@ -16,6 +16,7 @@ import routes from "routes";
 import styles from "./App.module.scss";
 import megaMan from "assets/images/ZZ58.gif";
 import megaMoon from "assets/images/8bitmoon.png";
+import Game from "pages/Game";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -49,6 +50,7 @@ export default function App() {
       <Routes>
         {getRoutes(routes)}
         <Route path="/" element={<Presentation />} />
+        <Route path="/play" element={<Game />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <img className={styles.megaMoon} src={megaMoon} />

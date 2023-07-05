@@ -40,8 +40,9 @@ function BaseLayout({ breadcrumb, title, children }) {
           routes={routes}
           action={{
             type: "external",
-            route: "https://uniswap.com",
-            label: "Buy on uniswap",
+            route:
+              "https://www.dextools.io/app/en/ether/pair-explorer/0x24cd9d59f20752ed4eb3cb53821671da22fce505",
+            label: "Dextools",
             color: "info",
           }}
           transparent
