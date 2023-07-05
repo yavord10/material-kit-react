@@ -37,7 +37,7 @@ Coded by www.creative-tim.com
 */
 
 // @mui icons
-import { Telegram, Twitter } from "@mui/icons-material";
+import { Telegram, Twitter, SignalCellularAlt } from "@mui/icons-material";
 
 const routes = [
   {
@@ -49,6 +49,11 @@ const routes = [
     name: "Twitter",
     icon: <Twitter />,
     href: "https://twitter.com/MEGAMOON_eth",
+  },
+  {
+    name: "Etherscan",
+    icon: <SignalCellularAlt />,
+    href: "https://etherscan.io/token/0xa72daef35f3875355112b7a39b867866a88723da#balances",
   },
 ];
 

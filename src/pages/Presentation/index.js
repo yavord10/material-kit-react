@@ -137,7 +137,7 @@ function Presentation() {
           <Container>
             <Grid container spacing={3}>
               <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
-                <MKTypography variant="h6" fontWeight="bold" mb={0.5}>
+                <MKTypography variant="h6" fontWeight="bold" mb={0.5} mt={1}>
                   Thank you for your support!
                 </MKTypography>
               </Grid>
@@ -154,7 +154,7 @@ function Presentation() {
                   href="https://twitter.com/MEGAMOON_eth"
                   target="_blank"
                   color="twitter"
-                  sx={{ mr: 1 }}
+                  sx={{ mr: 1, mt: 1 }}
                 >
                   <i className="fab fa-twitter" style={{ fontSize: "20px" }} />
                   &nbsp;Tweet
@@ -164,10 +164,20 @@ function Presentation() {
                   href="https://t.me/MEGAMOON_eth"
                   target="_blank"
                   color="facebook"
-                  sx={{ mr: 1 }}
+                  sx={{ mr: 1, mt: 1 }}
                 >
                   <i className="fab fa-telegram" style={{ fontSize: "20px" }} />
                   &nbsp;Join
+                </MKSocialButton>
+                <MKSocialButton
+                  component="a"
+                  href="mailto:megamooneth@gmail.com"
+                  target="_blank"
+                  color="youtube"
+                  sx={{ mr: 1, mt: 1 }}
+                >
+                  <i className="fas fa-envelope" style={{ fontSize: "20px" }} />
+                  &nbsp;Email
                 </MKSocialButton>
               </Grid>
             </Grid>
