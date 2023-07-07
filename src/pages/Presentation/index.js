@@ -24,6 +24,9 @@ import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
+import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
+import AirlineStopsIcon from "@mui/icons-material/AirlineStops";
+import StorefrontIcon from "@mui/icons-material/Storefront";
 
 import styles from "App.module.scss";
 
@@ -111,7 +114,7 @@ function Presentation() {
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
-                icon="flag"
+                icon={<AirlineStopsIcon />}
                 title="Reflections"
                 description="40% of tax goes to massive reflections for holders"
               />
@@ -119,7 +122,7 @@ function Presentation() {
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
-                icon="precision_manufacturing"
+                icon={<LocalFireDepartmentIcon />}
                 title="Buybacks/Burn"
                 description="40% of tax goes to buybacks and burns"
               />
@@ -127,7 +130,7 @@ function Presentation() {
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
-                icon="apps"
+                icon={<StorefrontIcon />}
                 title="Marketing"
                 description="20% of tax goes to marketing and growth"
               />
