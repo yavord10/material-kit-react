@@ -119,6 +119,24 @@
   background-color: white !important;
 }
 
+.keyFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+
+  span {
+    color: white;
+  }
+}
+
+.key {
+  width: 50px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
 @keyframes megaMoonRoll {
   0% {
     right: -100px;
