@@ -63,7 +63,7 @@ const Game = () => {
             }}
           >
             Have fun playing while <br />
-            receive your reflections <br />
+            receive your MEGA reflections <br />
             straight in your wallet!
           </span>
         </div>
