@@ -156,36 +156,6 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
                     >
                       {col.name}
                     </MKTypography>
-                    {col.collapse.map((item) => (
-                      <MKTypography
-                        key={item.name}
-                        component={item.route ? Link : MuiLink}
-                        to={item.route ? item.route : ""}
-                        href={item.href ? item.href : (e) => e.preventDefault()}
-                        target={item.href ? "_blank" : ""}
-                        rel={item.href ? "noreferrer" : "noreferrer"}
-                        minWidth="11.25rem"
-                        display="block"
-                        variant="button"
-                        color="text"
-                        textTransform="capitalize"
-                        fontWeight="regular"
-                        py={0.625}
-                        px={2}
-                        sx={({ palette: { grey, dark }, borders: { borderRadius } }) => ({
-                          borderRadius: borderRadius.md,
-                          cursor: "pointer",
-                          transition: "all 300ms linear",
-
-                          "&:hover": {
-                            backgroundColor: grey[200],
-                            color: dark.main,
-                          },
-                        })}
-                      >
-                        {item.name}
-                      </MKTypography>
-                    ))}
                   </Fragment>
                 ))}
                 {key !== 0 && (
@@ -485,7 +455,9 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
         })}
       >
         <MKBox display="flex" justifyContent="space-between" alignItems="center">
-          <span className={styles.navTitle}>MEGAMOON</span>
+          <Link to="/">
+            <span className={styles.navTitle}>MEGAMOON</span>
+          </Link>
           <span
             className={styles.muteButton}
             style={{

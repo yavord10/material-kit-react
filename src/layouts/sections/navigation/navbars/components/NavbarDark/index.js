@@ -30,7 +30,7 @@ function NavbarDark() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://uniswap.com",
+          route: "https://app.uniswap.org/#/swap",
           label: "Buy on uniswap",
           color: "info",
         }}

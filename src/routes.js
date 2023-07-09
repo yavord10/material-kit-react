@@ -19,10 +19,10 @@ const routes = [
     icon: <SignalCellularAlt />,
     href: "https://etherscan.io/token/0xa72daef35f3875355112b7a39b867866a88723da#balances",
   },
-  /*   {
+  /* {
     name: "Playground",
     icon: <Gamepad />,
-    href: "/play",
+    route: "/play",
   }, */
 ];
 
