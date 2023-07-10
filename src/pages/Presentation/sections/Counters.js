@@ -31,19 +31,19 @@ function Counters() {
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
               prefix="$"
-              count={99526}
+              count={116151}
               suffix="+"
               title="Supply burnt"
               description=""
             />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
-            <DefaultCounterCard count={9} suffix="+" title="Buybacks done" description="" />
+            <DefaultCounterCard count={12} suffix="+" title="Buybacks done" description="" />
           </Grid>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
               prefix="$"
-              count={17087}
+              count={20837}
               suffix="+"
               title="Reflections"
               description=""
