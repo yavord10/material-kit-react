@@ -32,6 +32,7 @@ import styles from "App.module.scss";
 
 // Images
 import logo from "assets/images/megamoon_logo.png";
+import Roadmap from "./Roadmap";
 
 function Presentation() {
   return (
@@ -95,14 +96,13 @@ function Presentation() {
           </Grid>
         </div>
       </div>
-      <Card
-        sx={{
-          p: 2,
-          mx: { xs: 2, lg: 3 },
-          mt: -8,
-          mb: 4,
-          backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
-          backdropFilter: "saturate(200%) blur(30px)",
+      <div
+        style={{
+          padding: 2,
+          margin: "0 2rem",
+          marginTop: "-5rem",
+          marginBottom: "4rem",
+          backgroundColor: "none",
         }}
       >
         <Counters />
@@ -110,13 +110,13 @@ function Presentation() {
           <BuiltByDevelopers />
         </Container>
         <Container>
-          <Grid container spacing={3}>
+          <Grid container spacing={3} style={{ position: "relative", zIndex: 5 }}>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
                 color="info"
                 icon={<AirlineStopsIcon />}
                 title="Reflections"
-                description="40% of tax goes to massive reflections for holders"
+                description="40% of tax goes to MEGA reflections"
               />
             </Grid>
             <Grid item xs={12} lg={4}>
@@ -137,11 +137,21 @@ function Presentation() {
             </Grid>
           </Grid>
         </Container>
+        <MKBox pt={3} px={1} mt={3}>
+          <Roadmap />
+        </MKBox>
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>
               <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
-                <MKTypography variant="h6" fontWeight="bold" mb={0.5} mt={1}>
+                <MKTypography
+                  variant="h6"
+                  fontWeight="bold"
+                  mb={0.5}
+                  mt={1}
+                  color="white"
+                  style={{ position: "relative", zIndex: 5 }}
+                >
                   Thank you for your support!
                 </MKTypography>
               </Grid>
@@ -187,7 +197,7 @@ function Presentation() {
             </Grid>
           </Container>
         </MKBox>
-      </Card>
+      </div>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>

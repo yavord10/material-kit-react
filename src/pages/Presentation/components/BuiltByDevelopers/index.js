@@ -20,7 +20,7 @@ import Grid from "@mui/material/Grid";
 // Megamoon components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import bgImage from "assets/images/8bitmegamoonbg2.webp";
+import bgImage from "assets/images/megamoonbanner3notext.png";
 
 import styles from "App.module.scss";
 function BuiltByDevelopers() {
@@ -39,6 +39,8 @@ function BuiltByDevelopers() {
           )}, url(${bgImage})`,
         backgroundSize: "contain",
         backgroundPosition: "bottom",
+        position: "relative",
+        zIndex: 5,
       }}
     >
       <Container>
@@ -46,7 +48,9 @@ function BuiltByDevelopers() {
           <MKTypography variant="h3" color="white" mb={1} className={styles.tokenomicsHeader}>
             Tokenomics
           </MKTypography>
-          <div style={{ display: "flex", flexDirection: "column " }}>
+          <div
+            style={{ display: "flex", flexDirection: "column", position: "relative", zIndex: 5 }}
+          >
             <MKTypography variant="h5" color="white" fontWeight="bold">
               Buy tax: 0%
             </MKTypography>

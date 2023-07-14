@@ -82,6 +82,7 @@
   width: 120px;
   animation: megaManRun 7s infinite linear;
   animation-delay: 3s;
+  z-index: 6;
 
   @media (max-width: 700px) {
     width: 70px;
@@ -95,6 +96,7 @@
   width: 120px;
   animation: megaMoonRoll 7s infinite linear;
   animation-delay: 2s;
+  z-index: 6;
 
   @media (max-width: 700px) {
     width: 70px;
@@ -127,6 +129,48 @@
 
   span {
     color: white;
+  }
+}
+
+.roadmapCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  color: #344767;
+  max-width: 1200px;
+
+  .roadmapCardTitle {
+    color: #4172cf;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+.emoji {
+  margin: 0 10px;
+  font-size: 55px;
+}
+
+.list {
+  line-height: 25px;
+  font-size: 12px;
+  list-style-type: none;
+
+  li {
+    margin: 15px auto;
+    text-align: center;
   }
 }
 
